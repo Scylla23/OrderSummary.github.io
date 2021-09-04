@@ -1,0 +1,103 @@
+html{
+    background-color: #e0e8ff;
+    
+    background-image: url(images/pattern-background-desktop.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+section{
+    margin: 50px auto;
+    box-shadow: 0 2.4rem 4.8rem rgb(0 0 0 / 9%);
+    width: 450px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+
+}
+
+.hero{
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+.summary{
+    font-family: "Red Hat Display", sans-serif;
+    text-align: center;
+    font-size: 3rem;
+}
+.top{
+    font-family: "Red Hat Display", sans-serif;
+    text-align: center;
+    margin: 10px 20px 10px 20px;
+    color: hsl(224, 23%, 55%);
+    line-height: 2;
+    font-size: 1rem;
+}
+.annual{
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color:hsl(225, 100%, 98%); 
+    border-radius: 10px;
+    align-items: center;
+    padding: 10px;
+    align-content: center;
+
+ }
+ .annualtext{
+     margin-top: 10px;
+     
+ }
+ .music{
+     float: left;
+     margin-right: 80px;
+     margin-top: 5px;
+ }
+ .plan{
+    font-family: "Red Hat Display", sans-serif;
+    color: rgb(71, 68, 68);
+     
+ }
+.processbotton{
+    margin: 20px 10px 10px 20px;
+    background-color:hsl(228, 89%, 47%); 
+    border-radius: 10px;
+    align-items: center;
+    padding: 10px;
+    align-content: center;
+
+
+}
+.processbotton  :hover{
+    color: whitesmoke;
+
+}
+.cancel{
+    margin: 20px 10px 10px 20px;
+    background-color:hsl(225, 100%, 98%); 
+    padding: 10px;
+
+}
+.canceltext{
+  color: rgb(97, 93, 93);  
+  text-align: center;
+  font-family: "Red Hat Display", sans-serif;
+}
+.payment{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-family: "Red Hat Display", sans-serif;
+}
+
+ .changebutton{
+     float: right;
+     text-decoration: none;
+     color: hsl(245, 75%, 52%);
+     
+ }
+ .attribution{
+     font-size: smaller;
+     text-align: center;
+     padding-bottom: 20px;
+     margin-top: 0;
+ }
